@@ -16,4 +16,4 @@ function calculaBaskara (a, b, c) {
 
 let resultados = [];
 resultados = calculaBaskara(1, 8, 7)
-console.log(`Resultados ${resultados}`)
+console.log(`Resultados: ${resultados}`)

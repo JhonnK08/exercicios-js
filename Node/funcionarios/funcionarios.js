@@ -8,7 +8,7 @@ const menorSalario = (func, funcAtual) => {
 }
 axios.get(url).then(response => {
     const funcionarios = response.data
-    //console.log(funcionarios)
+    console.log(funcionarios)
     const func = funcionarios.filter(chineses).filter(mulheres).reduce(menorSalario)
     console.log(func)
 })
